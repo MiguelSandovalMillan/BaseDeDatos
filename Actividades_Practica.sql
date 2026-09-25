@@ -114,4 +114,9 @@ ORDER BY Ventas.id_venta;
         los clientes.
 
 - ¿Qué función tiene GROUP BY?
-    -R= Se utiliza para 
+    -R= Se utiliza para agrupar filas que tienen los mismos valores en columnas especificadas en un solo registro. 
+
+- ¿Cuál sería el procedimiento para agregar una nueva categoría y asignarla a un producto?
+    -R= Primero se debe agregar la nueva categoria a la tabla "Categorias" y despues se debe modificar el producto
+        que se desea asignar a la nueva categoria, cambiando el id_categoria del producto por el id_categoria
+        de la nueva categoria.
