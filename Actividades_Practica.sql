@@ -63,10 +63,6 @@ ORDER BY Productos.nombre_producto;
 
 
 -- ACTIVIDAD 10 - Mostrar cada venta con el nombre del cliente --
-SELECT * FROM Ventas;
-SELECT * FROM Clientes;
-SELECT * FROM Detalle_Venta;
-
 SELECT Ventas.id_venta, Ventas.id_cliente, 
     Clientes.nombre, Clientes.apellidos
 FROM Ventas
