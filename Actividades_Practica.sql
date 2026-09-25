@@ -43,7 +43,6 @@ SELECT AVG(precio) AS promedio_precio
 FROM Productos;
 
 
-
 -- ACTIVIDAD 9 - Mostrar producto y categoría --
 
 --_A_--
